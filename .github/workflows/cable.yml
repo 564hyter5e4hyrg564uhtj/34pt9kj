@@ -3,7 +3,7 @@
 name: Main
 
 on:
-  #or pull request events but only for the "main" branch
+  #or pull request event
   push:
     branches: [ "main" ]
   pull_request:
